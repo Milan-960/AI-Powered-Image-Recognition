@@ -37,7 +37,7 @@ export default function ThreeScene() {
     const AMOUNTX = 100;
     const AMOUNTY = 100;
 
-    let particles = new THREE.BufferGeometry();
+    const particles = new THREE.BufferGeometry();
     const numParticles = AMOUNTX * AMOUNTY;
 
     const positions = new Float32Array(numParticles * 3); // Store positions
