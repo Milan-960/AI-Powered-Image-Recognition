@@ -16,12 +16,12 @@ export default function ThreeScene() {
     const scene = new THREE.Scene();
 
     const camera = new THREE.PerspectiveCamera(
-      75,
+      80,
       window.innerWidth / window.innerHeight,
       1,
       1000
     );
-    camera.position.z = 500;
+    camera.position.z = 300;
 
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -33,7 +33,7 @@ export default function ThreeScene() {
     }
 
     // Particle system variables
-    const SEPARATION = 80;
+    const SEPARATION = 90;
     const AMOUNTX = 100;
     const AMOUNTY = 100;
 
