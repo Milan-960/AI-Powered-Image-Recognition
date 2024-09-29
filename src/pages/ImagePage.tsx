@@ -43,7 +43,8 @@ export default function ImagePage() {
           content="An AI-powered image recognition app"
         />
       </Head>
-      <div className="flex flex-col items-center justify-center min-h-screen bg-background text-foreground">
+
+      <div className="relative flex flex-col items-center justify-center min-h-screen bg-background text-foreground">
         <h1 className="text-4xl font-bold mb-4">
           AI-Powered Image Recognition
         </h1>
@@ -54,6 +55,7 @@ export default function ImagePage() {
           onChange={handleImageUpload}
           className="mb-6 text-center"
         />
+
         {image && (
           <div>
             <img

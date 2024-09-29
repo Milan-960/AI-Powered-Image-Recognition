@@ -25,3 +25,14 @@ body {
     text-wrap: balance;
   }
 }
+
+.three-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Keep it behind content */
+  pointer-events: none; /* Prevent interaction */
+  overflow: hidden; /* Ensure no overflow issues */
+}
