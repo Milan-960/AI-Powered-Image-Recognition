@@ -14,6 +14,8 @@ Features:
 - **Tailwind CSS**: For styling and responsive design.
 - **Next-PWA**: To enable Progressive Web App functionality, including offline caching and service workers.
 
+![img](./SS/home.png)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
